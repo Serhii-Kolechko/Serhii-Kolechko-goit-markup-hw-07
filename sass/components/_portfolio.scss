@@ -191,15 +191,7 @@
 }
 
 .card-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 187% */
-    letter-spacing: 0.03em;
-
-    color: #757575;
+    @include portfolio-card-text;
     padding-left: 24px;
     margin-top: 0;
     margin-bottom: 20px;

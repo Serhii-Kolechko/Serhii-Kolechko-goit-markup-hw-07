@@ -27,26 +27,14 @@
     height: 38px;
 }
 
-@mixin portfolio-secondary-text (){
-     color: $title-text-color;
-     text-decoration: none;
-     font-family: Roboto;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 1.2;
-     letter-spacing: 0.02em;
-}
+%transition-text{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      /* or 156% */
+      letter-spacing: 0.03em;
 
-@mixin portfolio-secondary-title (){
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 36px;
-    /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
-    color: #212121;
-    margin-bottom: 4px;
+      color: #FFFFFF;
 }
-
