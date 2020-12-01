@@ -30,14 +30,7 @@
     padding-top: 32px;
     padding-bottom: 32px;
 
-    color: $title-text-color;
-    text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    @include portfolio-secondary-text;
     min-width: 84px;
     min-height: 26px;
 
@@ -64,162 +57,65 @@
 }
 
 .button-items {
-
-    padding: 6px 22px;
-    min-width: 73px;
-    border-radius: 4px;
-    border: transparent;
-    background-color: #F5F4FA;
-    height: 38px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
-
-
+    
+    @extend %base-button-portfolio-settings;
+    @extend %button-portfolio-font;
 }
 
 .button-items-website {
     width: 128px;
-    padding: 6px 22px;
-    min-width: 73px;
-    border-radius: 4px;
-    border: transparent;
-    background-color: #F5F4FA;
-    height: 38px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
+    
+     @extend %base-button-portfolio-settings;
+     @extend %button-portfolio-font;
 }
 
 .button-items-all {
     width: 73px;
-    padding: 6px 22px;
-    min-width: 73px;
-    border-radius: 4px;
-    border: transparent;
-    background-color: #F5F4FA;
-    height: 38px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
+    
+    @extend %base-button-portfolio-settings;
+    @extend %button-portfolio-font;
 }
 
 .button-items-apps {
     width: 145px;
-    padding: 6px 22px;
-    min-width: 73px;
-    border-radius: 4px;
-    border: transparent;
-    background-color: #F5F4FA;
-    height: 38px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
+    
+    @extend %base-button-portfolio-settings;
+    @extend %button-portfolio-font;
 }
 
 .button-items-disign {
     width: 103px;
-    padding: 6px 22px;
-    min-width: 73px;
-    border-radius: 4px;
-    border: transparent;
-    background-color: #F5F4FA;
-    height: 38px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
+    
+    @extend %base-button-portfolio-settings;
+    @extend %button-portfolio-font;
 }
 
 .button-items-marketing {
     width: 130px;
-    padding: 6px 22px;
-    min-width: 73px;
-    border-radius: 4px;
-    border: transparent;
-    background-color: #F5F4FA;
-    height: 38px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
+    
+    @extend %base-button-portfolio-settings;
+    @extend %button-portfolio-font;
 }
 
 
 .button-items-all:hover {
-    background-color: #2196F3;
-    color: white;
-    transition: all $time, $animate;
+    @extend %button-portfolio-hover;
 }
 
 .button-items-website:hover {
-    background-color: #2196F3;
-    color: white;
-    transition: all $time, $animate;
+   @extend %button-portfolio-hover;
 }
 
 .button-items-apps:hover {
-    background-color: #2196F3;
-    color: white;
-    transition: all $time, $animate;
+    @extend %button-portfolio-hover;
 }
 
 .button-items-disign:hover {
-    background-color: #2196F3;
-    color: white;
-    transition: all $time, $animate;
+    @extend %button-portfolio-hover;
 }
 
 .button-items-marketing:hover {
-    background-color: #2196F3;
-    color: white;
-    transition: all $time, $animate;
+    @extend %button-portfolio-hover;
 }
 
 /* картинки */
@@ -288,15 +184,7 @@
 }
 
 .features-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 36px;
-    /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
-    color: #212121;
-    margin-bottom: 4px;
+    @include portfolio-secondary-title;
     margin-top: 20px;
     margin-left: 24px;
 

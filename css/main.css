@@ -64,6 +64,34 @@ section:not(:last-child) {
   height: 251px;
 }
 
+.button-items, .button-items-website, .button-items-all, .button-items-apps, .button-items-disign, .button-items-marketing {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.button-items-all:hover, .button-items-website:hover, .button-items-apps:hover, .button-items-disign:hover, .button-items-marketing:hover {
+  background-color: #2196F3;
+  color: white;
+  -webkit-transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-items, .button-items-website, .button-items-all, .button-items-apps, .button-items-disign, .button-items-marketing {
+  padding: 6px 22px;
+  min-width: 73px;
+  border-radius: 4px;
+  border: transparent;
+  background-color: #F5F4FA;
+  height: 38px;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -986,152 +1014,24 @@ h4 {
   cursor: pointer;
 }
 
-.button-items {
-  padding: 6px 22px;
-  min-width: 73px;
-  border-radius: 4px;
-  border: transparent;
-  background-color: #F5F4FA;
-  height: 38px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
 .button-items-website {
   width: 128px;
-  padding: 6px 22px;
-  min-width: 73px;
-  border-radius: 4px;
-  border: transparent;
-  background-color: #F5F4FA;
-  height: 38px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .button-items-all {
   width: 73px;
-  padding: 6px 22px;
-  min-width: 73px;
-  border-radius: 4px;
-  border: transparent;
-  background-color: #F5F4FA;
-  height: 38px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .button-items-apps {
   width: 145px;
-  padding: 6px 22px;
-  min-width: 73px;
-  border-radius: 4px;
-  border: transparent;
-  background-color: #F5F4FA;
-  height: 38px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .button-items-disign {
   width: 103px;
-  padding: 6px 22px;
-  min-width: 73px;
-  border-radius: 4px;
-  border: transparent;
-  background-color: #F5F4FA;
-  height: 38px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .button-items-marketing {
   width: 130px;
-  padding: 6px 22px;
-  min-width: 73px;
-  border-radius: 4px;
-  border: transparent;
-  background-color: #F5F4FA;
-  height: 38px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.button-items-all:hover {
-  background-color: #2196F3;
-  color: white;
-  -webkit-transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-items-website:hover {
-  background-color: #2196F3;
-  color: white;
-  -webkit-transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-items-apps:hover {
-  background-color: #2196F3;
-  color: white;
-  -webkit-transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-items-disign:hover {
-  background-color: #2196F3;
-  color: white;
-  -webkit-transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-items-marketing:hover {
-  background-color: #2196F3;
-  color: white;
-  -webkit-transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* картинки */
