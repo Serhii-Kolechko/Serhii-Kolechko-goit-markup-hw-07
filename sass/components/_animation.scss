@@ -216,9 +216,7 @@
     margin-top: 8px;
     margin-right: 8px;
 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-origin: border-box;
+    @extend %background-svg;
 }
 
 .icon-close {
@@ -233,15 +231,11 @@
 
 .icon-close {
     background-image: url(../img/svg/modal-close-black.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-origin: border-box;
+    @extend %background-svg;
 }
 
 .icon-close:hover {
     background-image: url(../img/svg/modal-close-blue.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-origin: border-box;
+    @extend %background-svg;
 
 }

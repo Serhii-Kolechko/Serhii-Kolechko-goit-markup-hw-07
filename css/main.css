@@ -103,6 +103,12 @@ section:not(:last-child) {
   color: #FFFFFF;
 }
 
+.close, .icon-close, .icon-close:hover {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1351,9 +1357,6 @@ h4 {
   cursor: pointer;
   margin-top: 8px;
   margin-right: 8px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-origin: border-box;
 }
 
 .icon-close {
@@ -1368,16 +1371,10 @@ h4 {
 
 .icon-close {
   background-image: url(../img/svg/modal-close-black.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-origin: border-box;
 }
 
 .icon-close:hover {
   background-image: url(../img/svg/modal-close-blue.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-origin: border-box;
 }
 
 /* ДЗ НОМЕР 6 РИСУЕМ ФОРМУ */
