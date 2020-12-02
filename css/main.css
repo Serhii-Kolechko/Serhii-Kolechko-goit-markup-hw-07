@@ -671,6 +671,14 @@ h4 {
   margin: 0;
   font-family: Roboto;
   font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.03em;
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
