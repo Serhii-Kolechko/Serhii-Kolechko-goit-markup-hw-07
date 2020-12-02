@@ -32,3 +32,15 @@
 
     color: #757575;
 }
+
+ @mixin font () {
+       font-family: $family;
+       font-style: $style;
+       font-weight: $weight;
+       font-size: $size;
+       line-height: $height;
+       /* identical to box height, or 200% */
+       letter-spacing: $letter-spacing;
+       color: $color;
+     
+ }
