@@ -108,6 +108,17 @@ section:not(:last-child) {
   color: #FFFFFF;
 }
 
+.clients-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
 .close, .icon-close, .icon-close:hover {
   background-size: contain;
   background-repeat: no-repeat;
@@ -674,14 +685,6 @@ h4 {
 .clients-title {
   padding-bottom: 50px;
   margin: 0;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 200% */
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .logo-clients-one {
