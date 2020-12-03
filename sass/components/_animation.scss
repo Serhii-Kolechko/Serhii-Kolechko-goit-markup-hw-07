@@ -88,9 +88,8 @@
 
 .link-portfolio {
     position: relative;
-}
-
-.link-portfolio::before {
+    
+    &::before {
     display: inline-block;
     content: "";
     position: absolute;
@@ -101,6 +100,7 @@
     background-color: $accent-color;
     border-radius: 2px;
     opacity: 0;
+}
 }
 
 .studio::before {

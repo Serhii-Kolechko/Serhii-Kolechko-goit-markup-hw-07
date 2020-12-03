@@ -81,7 +81,7 @@ section:not(:last-child) {
   color: #212121;
 }
 
-.button-items-all:hover, .button-items-website:hover, .button-items-apps:hover, .button-items-disign:hover, .button-items-marketing:hover {
+.button-items-website:hover, .button-items-all:hover, .button-items-apps:hover, .button-items-disign:hover, .button-items-marketing:hover {
   background-color: #2196F3;
   color: white;
   -webkit-transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
@@ -816,7 +816,7 @@ h4 {
 }
 
 .footer-portfolio {
-  padding-top: 94px;
+  padding-top: 60px;
   width: 1230px;
   margin-bottom: 0;
   margin-right: auto;
@@ -1077,11 +1077,6 @@ h4 {
   padding-right: 15px;
 }
 
-/* .pictures-portfolio-item{
-  display: flex;
-  flex-wrap: wrap;
-  width: calc((100%-60px)/3);
-} */
 .card-portfolio {
   width: 370px;
   height: 404px;
@@ -1552,17 +1547,6 @@ textarea {
   position: relative;
 }
 
-/* .icon-check {
- position: absolute;
- top: 3px;
- left: -15px;
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  border: 1px solid red;
-  border-radius: 2px;
-  
-} */
 .checkbox {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1583,18 +1567,6 @@ textarea {
   border: transparent;
 }
 
-/* .[checkbox]:checked >.icon-check{
-  background-color: red;
-  background-image: url(../img/svg/close.svg);
-  background-size: contain;
-  background-origin: border-box;
-}
-.checkbox:checked ~ .icon-check{
-  border-color: var(--accent-color); */
-/* background-color: var(--accent-color);
-  background-image: url(../img/svg/close.svg)
-  background-size: contain;
-  background-origin: border-box; */
 .option {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1642,11 +1614,6 @@ textarea {
   transition: all 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*.form-input:focus+.form-label,
-.form-input:not(:placeholder-shown)+.form-label {
-  transform: translate(-22px, -22px);
-  
-} */
 .form-person {
   position: absolute;
   top: 50%;
@@ -1669,12 +1636,6 @@ textarea {
   height: 18px;
 }
 
-/*.form-input:focus ~.form-person{
-  fill: var(--accent-color);
-}
-.form-input:focus{
-  border-color: red;
-} */
 .form-field:focus-within > .form-person-span > .form-person {
   fill: #2196f3;
 }
@@ -1683,23 +1644,6 @@ textarea {
   border: 1px solid #2196F3;
 }
 
-/* 
-.form-field:focus-within > .form-label{
-  transform: translate(-22px, -22px);
-   
-}
-.form-field:focus-within > .form-laber {
-  border-color: var(--accent-color);
-}
-.form-input:not(:placeholder-shown)+.form-label{
-  transform: translateY(-22px, -22px);
-}
-.form-field:focus-within > .form-label{
-  transform: translate(-22px, -22px);
-}
-.form-input:not(:placeholder-shown)+.form-label{
-  transform: translate(-22px, -22px);
-} */
 .form-label {
   position: absolute;
   top: -10px;

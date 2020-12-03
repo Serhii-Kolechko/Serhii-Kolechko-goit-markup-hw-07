@@ -133,17 +133,7 @@ textarea {
 
 }
 
-/* .icon-check {
- position: absolute;
- top: 3px;
- left: -15px;
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  border: 1px solid red;
-  border-radius: 2px;
-  
-} */
+
 .checkbox {
     appearance: none;
     position: relative;
@@ -164,22 +154,6 @@ textarea {
 
 
 }
-
-
-/* .[checkbox]:checked >.icon-check{
-  background-color: red;
-  background-image: url(../img/svg/close.svg);
-  background-size: contain;
-  background-origin: border-box;
-}
-.checkbox:checked ~ .icon-check{
-  border-color: var(--accent-color); */
-
-/* background-color: var(--accent-color);
-  background-image: url(../img/svg/close.svg)
-  background-size: contain;
-  background-origin: border-box; */
-
 
 
 
@@ -231,11 +205,7 @@ textarea {
 
 }
 
-/*.form-input:focus+.form-label,
-.form-input:not(:placeholder-shown)+.form-label {
-  transform: translate(-22px, -22px);
-  
-} */
+
 
 .form-person {
     position: absolute;
@@ -263,12 +233,7 @@ textarea {
 
 }
 
-/*.form-input:focus ~.form-person{
-  fill: var(--accent-color);
-}
-.form-input:focus{
-  border-color: red;
-} */
+
 
 .form-field:focus-within>.form-person-span>.form-person {
     fill: $accent-color;
@@ -282,24 +247,6 @@ textarea {
     border: 1px solid #2196F3;
 
 }
-
-/* 
-.form-field:focus-within > .form-label{
-  transform: translate(-22px, -22px);
-   
-}
-.form-field:focus-within > .form-laber {
-  border-color: var(--accent-color);
-}
-.form-input:not(:placeholder-shown)+.form-label{
-  transform: translateY(-22px, -22px);
-}
-.form-field:focus-within > .form-label{
-  transform: translate(-22px, -22px);
-}
-.form-input:not(:placeholder-shown)+.form-label{
-  transform: translate(-22px, -22px);
-} */
 
 
 .form-label {

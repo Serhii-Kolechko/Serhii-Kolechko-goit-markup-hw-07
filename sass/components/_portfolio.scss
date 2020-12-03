@@ -60,63 +60,61 @@
     
     @extend %base-button-portfolio-settings;
     @extend %button-portfolio-font;
+
+    &-website{
+        width: 128px;
+        @extend %base-button-portfolio-settings;
+        @extend %button-portfolio-font;
+        &:hover {
+            @extend %button-portfolio-hover;
+        }
+    }
+
+    &-all{
+        width: 73px;
+         @extend %base-button-portfolio-settings;
+         @extend %button-portfolio-font;
+         &:hover {
+             @extend %button-portfolio-hover;
+         }
+    }
+
+    &-apps{
+         width: 145px;
+
+         @extend %base-button-portfolio-settings;
+         @extend %button-portfolio-font;
+         &:hover {
+             @extend %button-portfolio-hover;
+         }
+    }
+
+     &-disign {
+         width: 103px;
+
+         @extend %base-button-portfolio-settings;
+         @extend %button-portfolio-font;
+         &:hover {
+             @extend %button-portfolio-hover;
+         }
+     }
+
+     &-marketing {
+         width: 130px;
+
+         @extend %base-button-portfolio-settings;
+         @extend %button-portfolio-font;
+         &:hover{
+             @extend %button-portfolio-hover;
+         }
+     }
 }
 
-.button-items-website {
-    width: 128px;
-    
-     @extend %base-button-portfolio-settings;
-     @extend %button-portfolio-font;
-}
-
-.button-items-all {
-    width: 73px;
-    
-    @extend %base-button-portfolio-settings;
-    @extend %button-portfolio-font;
-}
-
-.button-items-apps {
-    width: 145px;
-    
-    @extend %base-button-portfolio-settings;
-    @extend %button-portfolio-font;
-}
-
-.button-items-disign {
-    width: 103px;
-    
-    @extend %base-button-portfolio-settings;
-    @extend %button-portfolio-font;
-}
-
-.button-items-marketing {
-    width: 130px;
-    
-    @extend %base-button-portfolio-settings;
-    @extend %button-portfolio-font;
-}
 
 
-.button-items-all:hover {
-    @extend %button-portfolio-hover;
-}
 
-.button-items-website:hover {
-   @extend %button-portfolio-hover;
-}
 
-.button-items-apps:hover {
-    @extend %button-portfolio-hover;
-}
 
-.button-items-disign:hover {
-    @extend %button-portfolio-hover;
-}
-
-.button-items-marketing:hover {
-    @extend %button-portfolio-hover;
-}
 
 /* картинки */
 .card-container-portfolio {
@@ -139,11 +137,7 @@
 
 }
 
-/* .pictures-portfolio-item{
-  display: flex;
-  flex-wrap: wrap;
-  width: calc((100%-60px)/3);
-} */
+
 .card-portfolio {
 
     width: 370px;
